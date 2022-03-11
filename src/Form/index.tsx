@@ -1,5 +1,4 @@
 import { FC, useContext, useEffect, useState } from "react";
-import { JsxElement } from "typescript";
 import { valuesContext } from "../Contexts/ValuesContext";
 import { calculateBmi } from "../Utils/bmi";
 import Input from "./Input";
