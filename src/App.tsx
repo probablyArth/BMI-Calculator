@@ -3,7 +3,7 @@ import Form from "./Form";
 
 const App: FC = () => {
   return (
-    <div>
+    <div className="flex flex-col items-center justify-center min-h-screen">
       <Form />
     </div>
   );

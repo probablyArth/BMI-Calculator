@@ -7,7 +7,7 @@ export interface ValueProps {
   setWeight: Dispatch<SetStateAction<number>>;
 }
 
-const valuesContext = createContext<ValueProps>({
+export const valuesContext = createContext<ValueProps>({
   height: 0,
   weight: 0,
   setHeight: () => {},
